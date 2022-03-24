@@ -1,8 +1,8 @@
 const axios = require('axios');
 const getRepos = async ({
-  username = 'rohitdeware',
+  username = 'gaearon',
   page = 1,
-  per_page = 30
+  per_page = 50
 } = {}) => {
   try {
     const repos = await axios.get(
